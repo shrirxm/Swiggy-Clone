@@ -1,0 +1,180 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+header{
+    width: 90%;
+    float: left;
+    height: 50px;
+    margin: 20px 5%;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li{
+    float: left;
+    font-size: 15px;
+    padding-right: 70px;
+    top:10px;
+    
+}
+.material-icons{
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding-right: 5px;
+    /* margin-top: 17px; */
+}
+
+.one{
+    float: left;
+    width: 90%;
+    background-color: rgb(122, 122, 122);
+    padding: 5%;
+}
+.one input{
+    width: 30%;
+    padding: 15px 10px ;
+    border: none;
+}
+.one button{
+    padding: 15px 10px;
+    background-color:#fc8019 ;
+    border: none;
+    color: aliceblue;
+}
+.two{
+    float: left;
+    width: 90%;
+    margin: 40px 5%;
+}
+.categories{
+    width: 100%;
+}
+.card{
+    float: left;
+    margin: 1.5%;
+    background-color:black;
+    width: 30%;
+    height:350px;
+    position: relative;
+}
+
+.card h1{
+    position: absolute;
+    color: aliceblue;
+    bottom: 5px;
+    text-align: center;
+    margin: 0px 5%;
+    width: 90%;
+    text-transform: uppercase;
+}
+.card img{
+    width: 100%;
+    height: 350px;
+}
+.card img:hover{
+    transform: scale(1.05);
+    opacity: 1;    
+    transition: 0.2s all ease-in-out;
+}
+.location{
+    width: 100%;
+}
+.location ul{
+    list-style-type: none;
+}
+.location li{
+    opacity: 0.7;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.onel{
+    float: left;
+    width: 33.33%;
+}
+.twol{
+    float: left;
+    width: 33.33%;
+}
+.threel{
+    float: left;
+    width: 33.33%;
+}
+
+.hotels{
+    width: 100%;
+    float: left;
+}
+.menucard{
+    width: 20%;
+    background-color: white;
+    height: 300px;
+    float: left;
+    margin:20px 2.5%;
+}
+.menucard:hover{
+    /* border: 0.3px solid grey; */
+    background-color: rgb(232, 232, 232);
+}
+.menucard img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.menucard h4,p{
+    padding: 0 2%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.menucard i{
+    padding-top:20px;
+    padding-left:10px;
+    color:green;
+    float:left;
+}
+.menucard h2{
+    float:left;
+    font-size:17px;
+    margin-top:8%;
+    color:black;
+}
+.menucard h5{
+    float:left;
+    margin-top:9%;
+    font-size:15px;
+    padding-left:15px;
+    
+}
+footer{
+    background-color: black;
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}   
+footer ul{
+    list-style-type: none;
+    float: left;
+}
+footer li{
+    float: left;
+    color: white;
+    font-size: larger;
+    padding-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+footer .twoo{
+padding-top: 10px;
+padding-left: 330px;
+}
+footer .threee{
+    margin-left: 350px;
+    float: left;
+    font-size: larger;
+    padding-top: 10px;
+}
